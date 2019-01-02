@@ -1,0 +1,26 @@
+.one{
+  height: 2000px;
+  background: green;
+}
+
+.two{
+  height:100px;
+  background: blue;
+}
+.three{
+  height: 300px;
+  background: black;
+}
+
+@import "libs";
+
+.slider-item{
+  background: #ccc;
+  width:500px;
+  height:200px;
+  margin:0 2%;
+
+  img{
+    width: 100%;
+  }
+}
